@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+.e-icons {
+    font-family: 'e-icons';
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+}
+
+.e-diagram-menu .e-bringforward::before {
+    content: '\e574';
+}
+
+.e-diagram-menu .e-bringfront::before {
+    content: '\e575';
+}
+
+.e-diagram-menu .e-sendback::before {
+    content: '\e576';
+}
+
+.e-diagram-menu .e-sendbackward::before {
+    content: '\e577';
+}
+
+.e-diagram-menu .e-delete::before {
+    content: '\e578';
+}
+
+.e-diagram-menu .e-ungroup::before {
+    content: '\e579';
+}
+
+.e-diagram-menu .e-group::before {
+    content: '\e57a';
+}
+
+.e-diagram-menu .e-undo::before {
+    content: '\e57c';
+}
+
+.e-diagram-menu .e-cut::before {
+    content: '\e57d';
+}
+
+.e-diagram-menu .e-save::before {
+    content: '\e57e';
+}
+
+.e-diagram-menu .e-paste::before {
+    content: '\e57f';
+}
+
+.e-diagram-menu .e-copy::before {
+    content: '\e580';
+}
+
+.e-diagram-menu .e-redo::before {
+    content: '\e581';
+}
+
+.e-diagram-menu .e-zoomin::before {
+    content: '\e582';
+}
+
+.e-diagram-menu .e-italic::before {
+    content: '\e583';
+}
+
+.e-diagram-menu .e-close::before {
+    content: '\e584';
+}
+
+.e-diagram-menu .e-pan::before {
+    content: '\e585';
+}
+
+.e-diagram-menu .e-bold::before {
+    content: '\e586';
+}
+
+.e-diagram-menu .e-underline::before {
+    content: '\e587';
+}
+
+.e-diagram-menu .e-zoomout::before {
+    content: '\e588';
+}
+
+.e-diagram-menu .e-export::before {
+    content: '\e589';
+}
+
+.e-diagram-menu .e-print::before {
+    content: '\e58a';
+}
+
+.e-diagram-menu .e-order::before {
+    content: '\e58b';
+}
+
+.e-symbolpalette .e-clear-searchtext::before {
+    content: '\e58c';
+}
+
+.e-icons {
+    font-family: 'e-icons';
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+}
+
+.e-diagram-menu .e-bringforward::before {
+    content: '\e5a1';
+}
+
+.e-diagram-menu .e-bringfront::before {
+    content: '\e5a2';
+}
+
+.e-diagram-menu .e-sendback::before {
+    content: '\e5a3';
+}
+
+.e-diagram-menu .e-sendbackward::before {
+    content: '\e5a4';
+}
+
+.e-diagram-menu .e-delete::before {
+    content: '\e94a';
+}
+
+.e-diagram-menu .e-ungroup::before {
+    content: '\e5a6';
+}
+
+.e-diagram-menu .e-group::before {
+    content: '\e5a7';
+}
+
+.e-diagram-menu .e-undo::before {
+    content: '\e341';
+}
+
+.e-diagram-menu .e-cut::before {
+    content: '\e33b';
+}
+
+.e-diagram-menu .e-save::before {
+    content: '\e735';
+}
+
+.e-diagram-menu .e-paste::before {
+    content: '\e355';
+}
+
+.e-diagram-menu .e-copy::before {
+    content: '\e33d';
+}
+
+.e-diagram-menu .e-redo::before {
+    content: '\e354';
+}
+
+.e-diagram-menu .e-zoomin::before {
+    content: '\e349';
+}
+
+.e-diagram-menu .e-italic::before {
+    content: '\e35a';
+}
+
+.e-diagram-menu .e-close::before {
+    content: '\ec0f';
+}
+
+.e-diagram-menu .e-pan::before {
+    content: '\ec1a';
+}
+
+.e-diagram-menu .e-bold::before {
+    content: '\e339';
+}
+
+.e-diagram-menu .e-underline::before {
+    content: '\e343';
+}
+
+.e-diagram-menu .e-zoomout::before {
+    content: '\e351';
+}
+
+.e-diagram-menu .e-export::before {
+    content: '\e711';
+}
+
+.e-diagram-menu .e-print::before {
+    content: '\e34b';
+}
+
+.e-diagram-menu .e-order::before {
+    content: '\e4a4';
+}
+
+.e-symbolpalette .e-clear-searchtext::before {
+    content: '\ec0f';
+}
+
+.e-diagram {
+    background-color: transparent;
+    display: block;
+}
+
+.e-symbolpalette {
+    display: block;
+}
+
+.e-overview {
+    display: block;
+}
+
+.e-content-placeholder.e-diagram.e-placeholder-diagram {
+    background-size: 100% 100%;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.e-content-placeholder.e-symbolpalette.e-placeholder-symbolpalette {
+    background-size: 100% 100%;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.e-diagram-endpoint-handle {
+    fill: #e3165b;
+    stroke: #fff;
+}
+
+.e-diagram-endpoint-handle.e-connected {
+    fill: #fff;
+    stroke: #e3165b;
+}
+
+.e-diagram-endpoint-handle.e-disabled {
+    fill: #9e9e9e;
+    opacity: 1;
+    stroke: #fff;
+}
+
+.e-diagram-bezier-handle {
+    fill: #e3165b;
+    stroke: #fff;
+}
+
+.e-diagram-bezier-line {
+    stroke: #e3165b;
+}
+
+.e-diagram-resize-handle {
+    fill: #e3165b;
+    stroke: #fff;
+}
+
+.e-diagram-resize-handle.e-disabled {
+    fill: #9e9e9e;
+    opacity: 1;
+    stroke: #fff;
+}
+
+.e-diagram-rotate-handle {
+    fill: #000;
+    stroke: #fff;
+}
+
+.e-diagram-border {
+    stroke: #e3165b;
+}
+
+.e-diagram-border.e-disabled {
+    opacity: 1;
+    stroke: #bdbdbd;
+}
+
+.e-diagram-border.e-thick-border {
+    stroke: #e3165b;
+    stroke-width: 2;
+}
+
+.e-diagram-border.e-thick-border.e-diagram-lane {
+    stroke: #0078ff;
+    stroke-width: 2;
+}
+
+.e-diagram-highlighter {
+    stroke: #e3165b;
+    stroke-width: 2;
+}
+
+.e-diagram-selected-region {
+    stroke: #3f51b5;
+}
+
+.e-diagram-pivot-line {
+    stroke: #e3165b;
+}
+
+.e-symbolpalette .e-symbol-hover:hover {
+    background: #eee;
+    border-radius: 0px;
+}
+
+.e-symbolpalette .e-symbol-selected {
+    background: #e0e0e0;
+    border-radius: 0px;
+}
+
+.e-diagram-tooltip {
+    pointer-events: visible;
+}
+
+.e-diagram .e-ruler {
+    background-color: #fff;
+    color: #757575;
+    font-size: 10px;
+}
+
+.e-diagram .e-ruler-overlap {
+    background-color: #fff;
+}
+
+.e-diagram .e-d-ruler-marker {
+    stroke: #e3165b;
+}
+
+.e-diagram .e-diagram-text-edit {
+    background: #fff;
+    border-color: #e3165b;
+    border-style: dashed;
+    border-width: 1px;
+    box-sizing: content-box;
+    color: #000;
+    min-width: 50px;
+}
+
+.e-diagram-text-edit::selection {
+    background: #e3165b;
+    color: #fff;
+}
+
+.e-ruler-tick-label {
+    fill: #616161;
+}
+
+.e-ruler-tick {
+    stroke: #757575;
+}
+
+.e-menu-item e-blankicon {
+    padding-left: 28px;
+}
+
+.e-diagram-rotate {
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsSAAALEgHS3X78AAAA60lEQVQ4jZ1SwQ2DMBAzlfLJI2KEjJAVukG7ARsxQkfoKHQDugHdgOoqh14oCaGWIpSTudzZRg2MdYOxrq0il2Csm411o7Eu5GinTN0D6AGMAGZVux9p1LGBrHIF0LD+4l3ql70thDABSFZYaeTJ6UqNWhL3ELhyyhUR98TcwI06Lk1aNonO1NocqGWy/6zOcGCq6OjiSCw22/wUfEzL8ND2P9duFXBmHMDvWVN7CliFkkGe69VM5RmVLDqG7ZMPOroWP5BTle5WjR6dkQayutyLqU6gsiU/ypHMiI41yf+CE01qov+R0egXAN5x6jng51I3yAAAAABJRU5ErkJggg==), auto !important;
+}
+
+.e-symbolpalette-hidden {
+    display: none !important;
+}
+
+.e-symbolpalette-search-hidden {
+    display: none !important;
+}
+
+.e-diagramTooltip-content {
+    width: auto !important;
+    height: auto !important;
+}
+
+#diagramEventsControlSection .sb-mobile-palette {
+    width: 200px;
+    height: 100%;
+    float: left;
+  }
+
+ #diagramEventsControlSection .sb-mobile-palette-bar {
+    display: none;
+  }
+
+ #diagramEventsControlSection .sb-mobile-diagram {
+    width: calc(100% - 200px);
+    height: 100%;
+    float: left;
+    border: 1px solid #d9dedd;
+  }
+  
+  .material #diagramEventsControlSection  #palette-space .e-accordion {
+      border: none;
+  }
+  .material #diagramEventsControlSection #palette-space {
+     border: 1px solid rgba(0, 0, 0, 0.12);
+  }
+
+  @media (max-width: 550px) {
+    #diagramEventsControlSection .sb-mobile-palette {
+      z-index: 19;
+      position: absolute;
+      display: none;
+      transition: transform 300ms linear, visibility 0s linear 300ms;
+      width: 39%;
+      height: 100%;
+    }
+
+    #diagramEventsControlSection .sb-mobile-palette-bar {
+      display: block;
+      width: 100%;
+      background: #fafafa;
+      padding: 10px 10px;
+      border: 0.5px solid #e0e0e0;
+      min-height: 40px;
+    }
+
+    #diagramEventsControlSection .sb-mobile-diagram {
+      width: 100%;
+      height: 100%;
+      float: left;
+      left: 0px;
+    }
+
+    #diagramEventsControlSection #palette-icon {
+      font-size: 20px;
+    }
+  }
+
+  #diagramEventsControlSection .sb-mobile-palette-open {
+    position: absolute;
+    display: block;
+    right: 15px;
+  }
+
+  @font-face {
+    font-family: "e-ddb-icons1";
+    src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAAKAIAAAwAgT1MvMj1tSfIAAAEoAAAAVmNtYXDnEOdVAAABiAAAADZnbHlmdC1P4gAAAcgAAAAwaGVhZBJhohMAAADQAAAANmhoZWEIVQQDAAAArAAAACRobXR4CAAAAAAAAYAAAAAIbG9jYQAYAAAAAAHAAAAABm1heHABDgAUAAABCAAAACBuYW1lm+wy9gAAAfgAAAK1cG9zdLnsYngAAASwAAAAMAABAAAEAAAAAFwEAAAAAAAD+AABAAAAAAAAAAAAAAAAAAAAAgABAAAAAQAAgNcenF8PPPUACwQAAAAAANelrs4AAAAA16WuzgAAAAAD+AN6AAAACAACAAAAAAAAAAEAAAACAAgAAgAAAAAAAgAAAAoACgAAAP8AAAAAAAAAAQQAAZAABQAAAokCzAAAAI8CiQLMAAAB6wAyAQgAAAIABQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUGZFZABA5wDnAAQAAAAAXAQAAAAAAAABAAAAAAAABAAAAAQAAAAAAAACAAAAAwAAABQAAwABAAAAFAAEACIAAAAEAAQAAQAA5wD//wAA5wD//wAAAAEABAAAAAEAAAAAAAAAGAAAAAIAAAAAA/gDegACAAcAACUhCQEhATUhAQQC9P6G/YoBMQFF/YqGAjf+hgH0QwAAAAAAEgDeAAEAAAAAAAAAAQAAAAEAAAAAAAEAEwABAAEAAAAAAAIABwAUAAEAAAAAAAMAEwAbAAEAAAAAAAQAEwAuAAEAAAAAAAUACwBBAAEAAAAAAAYAEwBMAAEAAAAAAAoALABfAAEAAAAAAAsAEgCLAAMAAQQJAAAAAgCdAAMAAQQJAAEAJgCfAAMAAQQJAAIADgDFAAMAAQQJAAMAJgDTAAMAAQQJAAQAJgD5AAMAAQQJAAUAFgEfAAMAAQQJAAYAJgE1AAMAAQQJAAoAWAFbAAMAAQQJAAsAJAGzIERpYWdyYW1fU2hhcGVzX0ZPTlRSZWd1bGFyRGlhZ3JhbV9TaGFwZXNfRk9OVERpYWdyYW1fU2hhcGVzX0ZPTlRWZXJzaW9uIDEuMERpYWdyYW1fU2hhcGVzX0ZPTlRGb250IGdlbmVyYXRlZCB1c2luZyBTeW5jZnVzaW9uIE1ldHJvIFN0dWRpb3d3dy5zeW5jZnVzaW9uLmNvbQAgAEQAaQBhAGcAcgBhAG0AXwBTAGgAYQBwAGUAcwBfAEYATwBOAFQAUgBlAGcAdQBsAGEAcgBEAGkAYQBnAHIAYQBtAF8AUwBoAGEAcABlAHMAXwBGAE8ATgBUAEQAaQBhAGcAcgBhAG0AXwBTAGgAYQBwAGUAcwBfAEYATwBOAFQAVgBlAHIAcwBpAG8AbgAgADEALgAwAEQAaQBhAGcAcgBhAG0AXwBTAGgAYQBwAGUAcwBfAEYATwBOAFQARgBvAG4AdAAgAGcAZQBuAGUAcgBhAHQAZQBkACAAdQBzAGkAbgBnACAAUwB5AG4AYwBmAHUAcwBpAG8AbgAgAE0AZQB0AHIAbwAgAFMAdAB1AGQAaQBvAHcAdwB3AC4AcwB5AG4AYwBmAHUAcwBpAG8AbgAuAGMAbwBtAAAAAAIAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgECAQMABlNoYXBlcwAA)
+      format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .e-ddb-icons1 {
+    font-family: "e-ddb-icons1";
+    speak-as: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #diagramEventsControlSection .e-toggle-palette::before {
+    content: "\e700";
+  }
+
+  
+  #diagramEventsPropertySection .event-tracer {
+    width: 240px;
+    height: 700px;
+    min-height: 700px;
+    float: left;
+  }
+
+ #diagramEventsPropertySection .heading {
+    color: #807f7f;
+    font-size: 15px;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #d9dedd;
+    padding: 10px;
+  }
+
+  .property-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 740px;
+    padding-right: 0px;
+  }
+
+  #diagramEventsPropertySection .evtbtn { 
+    float: right; 
+  }
+
+  #diagramEventsPropertySection .listbox {
+    width: 100%;
+    height: 50%;
+  }
+
+ #diagramEventsPropertySection .event-tracer .prop-grid {
+    width: 100%;
+    height: 50%;
+  }
+
+ #diagramEventsPropertySection #EventLog {
+    height: calc(100% - 50px);
+    padding: 15px;
+    overflow: auto;
+    width: 100%;
+  }
+
+  #EventLog b {
+   color: #388e3c;
+  }
+
+   hr {
+    margin: 1px 10px 1px 0px;
+    border-top: 1px solid #eee;
+   }

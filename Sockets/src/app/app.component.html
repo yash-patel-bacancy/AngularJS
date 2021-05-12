@@ -1,0 +1,14 @@
+<div id="roomcreated" style="margin-bottom: 10px;">sadasda</div>
+<br>
+<label>Room Id</label>
+<br>
+<input type="text" id="roomid" #joinRoom>
+<br>
+<br>
+<button type="button" id="createroom" (click)="onCreateRoom()">CREATE ROOM</button>
+<br><br>
+<button type="button" id="joinroom" (click)="onJoinRoom(joinRoom.value)">JOIN ROOM</button>
+<br>
+<br>
+<ul id="messages"></ul>
+<input id="m" autocomplete="off" #m/><button (click)="onSend(m.value)">Send</button>
